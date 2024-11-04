@@ -1,0 +1,26 @@
+{
+	"__": {
+		"name": "robots",
+		"staticPage": {}
+	},
+	"_site": {
+		"id": "4852396202020148858",
+		"meta": {
+			"entityType": {
+				"id": "ce_site",
+				"uid": 145107
+			},
+			"locale": "en"
+		},
+		"name": "header",
+		"uid": 1086388850
+	},
+	"businessId": 4301572,
+	"locale": "en",
+	"meta": {
+		"locale": "en"
+	},
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": ""
+}

@@ -1,0 +1,15 @@
+{
+  "features": [
+    {
+      "name": "search",
+      "templateType": "JS",
+      "staticPage": {}
+    },
+    {
+      "name": "robots",
+      "templateType": "JS",
+      "staticPage": {}
+    }
+  ],
+  "streams": []
+}
