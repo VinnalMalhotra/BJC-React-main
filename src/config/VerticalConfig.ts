@@ -104,7 +104,7 @@ export const VerticalConfig: VerticalProps[] = [
   //   verticalLimit: 5,
   // },
   {
-    label: "Professionals",
+    label: "Doctors",
     verticalKey: "healthcare-professional",
     pageType: "grid-cols-3",
     cardType: ProfessionalLocationAndGrid,
@@ -112,7 +112,7 @@ export const VerticalConfig: VerticalProps[] = [
     verticalLimit: 9,
   },
   {
-    label: "Healthcare Facilities",
+    label: "Location",
     verticalKey: "healthcare-facilities",
     pageType: "map",
     cardType: LocationStandard,
@@ -136,12 +136,12 @@ export const VerticalConfig: VerticalProps[] = [
     verticalLimit: 6,
   },
   {
-    label: "Products",
-    verticalKey: "product",
-    pageType: "grid-cols-3",
-    cardType: ProductProminentImage,
-    universalLimit: 3,
-    verticalLimit: 5,
+    label: "Content",
+    verticalKey: "content",
+    pageType: "standard",
+    cardType: ProfessionalStandard,
+    universalLimit: 4,
+    verticalLimit: 6,
     sortFields: ["name"],
   },
 ];

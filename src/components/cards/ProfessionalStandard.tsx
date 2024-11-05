@@ -29,7 +29,7 @@ const ProfessionalStandard = ({ result }: CardProps<any>) => {
 
   return (
     <article className="border rounded-lg flex justify-between  pr-4">
-      <header className="relative flex flex-col w-1/6">
+      <header className="relative flex flex-col ">
         <a
           href={landingPageUrl}
           className=" group aspect-square block   overflow-hidden rounded-t-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100"
@@ -59,9 +59,9 @@ const ProfessionalStandard = ({ result }: CardProps<any>) => {
             </span>
             <h2 className="text-lg">{name}</h2>
           </a>
-          <span className="standardSubTitle italic">
+          {/* <span className="standardSubTitle italic">
             {(distance! / 1609.344).toFixed(2)} mi
-          </span>
+          </span> */}
         </header>
 
         {/* {hours ? (
@@ -88,7 +88,9 @@ const ProfessionalStandard = ({ result }: CardProps<any>) => {
                   </section>
                 )}
               </div>
-              <footer className="flex flex-col   gap-2 justify-center pt-4 pb-2 items-center uppercase my-auto">
+            </div>
+            <ResponseComponent response={richTextDescriptionV2} showMore={false} />
+            <footer className="flex flex-col   gap-2 justify-center pt-4 pb-2 uppercase my-auto">
                 {c_primaryCTA && (
                   <Cta cta={c_primaryCTA} ctaType="primaryCta" />
                 )}
@@ -96,8 +98,6 @@ const ProfessionalStandard = ({ result }: CardProps<any>) => {
                   <Cta cta={c_secondaryCTA} ctaType="secondaryCta" />
                 )}
               </footer>
-            </div>
-            <ResponseComponent response={richTextDescriptionV2} showMore={true} />
           </div>
         </section>
       </section>

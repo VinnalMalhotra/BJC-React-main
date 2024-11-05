@@ -53,7 +53,7 @@ const PageLayout = ({ _site, children }: Props) => {
             />
           </ChatHeadlessProvider>
         )}
-      {/* <Footer _site={_site}></Footer> */}
+      <Footer _site={_site}></Footer>
     </div>
   );
 };
